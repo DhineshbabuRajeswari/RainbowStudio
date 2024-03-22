@@ -1,0 +1,1074 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+/* Header */
+
+header{
+    width: 98%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    align-self: auto;
+    justify-content: space-between;
+    background-color: rgba(11, 11, 11, 0.597);
+    margin: 0% 1%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: .4rem;
+    text-shadow: .5px .5px #02020282;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+header nav{
+    width: 35rem;
+    margin-right: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+.logodiv{
+    margin-left: 2rem;
+}
+
+.logoimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 1px rgb(136, 0, 255);
+    font-weight: 600;
+}
+
+.firstL{
+    color: gold;
+}
+
+.logoimg img{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.activeline{
+    border-bottom: 3px solid rgb(251, 255, 0);
+}
+
+/* Home */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0),#0b084e);
+}
+
+.topHome{
+    width: 100%;
+    display: flex;
+    padding: 0rem 2rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.upBtn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 2rem;
+    position: fixed;
+    top: 40rem;
+    z-index: 1000;
+}
+
+.upBtn a img{
+    width: 30px;
+    height: 30px;
+}
+
+.background{
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.background video{ 
+    width: 100%;
+}
+
+.h1div{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.h1div h1 span, .titlediv h3 span, .WelcomeTitle h3 span, .ServiceTitle h3 span, .titlediv4 h3 span, .titlediv5 h3 span{
+    color: gold;
+}
+
+.menubtn{
+    display: none;
+    cursor: pointer;
+}
+
+.menubtn button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.homedescription{
+    width: 36rem;
+    text-wrap: wrap;
+    text-align: justify;
+}
+
+/* Booking Form */
+
+.leftside{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home form{
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 25rem;
+    height: 35rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 0rem 0rem 2rem 0rem;
+    border-radius: 1rem;
+}
+
+.Formtitle{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    height: 2rem;
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.inputdiv{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 5px;
+}
+
+.inputdiv input{
+    height: 2.5rem;
+    border: none;
+    border-left: 2px solid rgb(0, 251, 255);
+    border-right: 2px solid rgb(0, 251, 255);
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(212, 212, 212, 0.582);
+}
+
+.inputdiv label{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(48, 33, 255);
+}
+
+input::placeholder {
+    color: #ffffff; 
+  }
+
+.buttonDate{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.dateclass{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    padding: 0;
+}
+
+.dateclass input{
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-left: 2px solid rgb(0, 251, 255);
+    border-right: 2px solid rgb(0, 251, 255);
+    background-color: rgba(212, 212, 212, 0.582);
+    color: white;
+}
+
+.dateclass label{
+    font-size: .9rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(48, 33, 255);
+    font-weight: 600;
+}
+
+.bookbutton{
+    width: 8rem;
+}
+
+.bookbutton button{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #5a82e0;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-shadow:2px 2px 2px #00000081;
+    color: white;
+    cursor: pointer;
+}
+
+.bookbutton button:active{
+    background-color: #2059de;
+}
+
+.inputdiv input:focus{
+    background-color: rgb(195, 241, 241);
+}
+
+.dateclass input:focus{
+    background-color: rgb(195, 241, 241);
+}
+
+
+.dateclass input:focus,
+input::placeholder {
+    color: black;
+}
+
+/* FeaturedPhotos */
+
+.titlediv{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: white;
+}
+
+.FeaturedPhotos{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(#0b084e, rgb(0, 0, 0));
+}
+
+.Featured{
+    /* width: 700px;
+    height: 575px; */
+    width: 55%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    align-items: center;
+}
+
+.slides, .hidden{
+    display: none;
+}
+
+.slides img{
+    width: 80%;
+    height: auto;
+    padding: 8px;
+    border: 8px solid white;
+    border-radius: 5px;
+}
+
+.activate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fade 3s;
+}
+
+.slider-buttons{
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-80%);
+    visibility: hidden;
+}
+
+.slider-buttons button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;  
+}
+
+.Featured:hover .slider-buttons{
+    visibility: visible;
+}
+
+.line{
+    width: 1rem;
+    height: 5px;
+    background-color: rgb(163, 148, 148);
+    margin: 0 0.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.linesParent{
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineColor{
+    background-color: white;
+}
+
+
+
+/* Welcome About */
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 5rem 0rem 5rem;
+    background: linear-gradient(rgb(0, 0, 0),#0b084e);
+    width: 100%;
+    color: white;
+}
+
+.leftWel{
+    width: 45%;
+}
+
+.leftWel .WelcomeTitle{
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: white;
+}
+
+.leftWel .bigPara{
+    width: 100%;
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.leftWel .smallPara{
+    width: 100%;
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.leftWel .aboutBtn{
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.leftWel .aboutBtn button{
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    background-color: rgb(41, 185, 41);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #ffffff, 1px -1px 1px #ffffff, -1px 1px 1px #ffffff;
+}
+
+.leftWel .aboutBtn button:hover{
+    background-color: rgb(43, 144, 43);
+}
+
+.leftWel .aboutBtn button:active{
+    background-color: rgb(21, 199, 21);
+}
+
+.rightWel{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightWel img {
+    width: 80%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* Services */
+
+.services{
+    display: flex;
+    width: 100%;
+    /* overflow: hidden; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#0b084e,rgb(0, 0, 0));
+    color: white;
+    padding: 0;
+}
+
+.ServiceTitle{
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    /* color: white; */
+}
+
+.ServiceTitle h3{
+    width: 100%;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+#spanish{
+    padding: 0 2rem;
+}
+
+.serviceDetails{
+    text-align: justify;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 0 0 5px 5px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+
+.serviceDetails h4{
+    font-size: 1.5rem;
+    border-bottom: 3px solid rgb(153, 255, 0);
+    text-shadow: 2px 2px 2px black;
+}
+
+.serviceDetails span{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.OurServices{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    padding: 3rem 0 0 0;
+    width: 95%;
+}
+
+.serviceCards{
+    width: 20rem;
+    height: 34rem;
+    margin: 1.5rem 1.5rem;
+    /* background-color: rgb(32, 89, 222, 0.3); */
+}
+
+.cardImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding-top: 12px;
+}
+
+.cardImg img{
+    width: 80%;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 12px;
+    border: 4px solid rgb(62, 255, 3);
+}
+
+/* Review */
+
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;  
+    background: linear-gradient(rgb(0, 0, 0),#0b084e);  
+}
+.fullReview{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding-bottom: 2rem;
+}
+
+.reviewSlide{
+    display: none;
+    position: relative;
+    animation: fade 3s;
+    align-items: center;justify-content: center;
+}
+
+.active{
+    display: block;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 32rem;
+    background-color: #20356862;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.boximage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.boximage img{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    padding: 8px;
+    border: 8px solid white;
+
+}
+
+.spansp{
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(13, 255, 0);
+    border-top: 4px solid rgb(13, 255, 0);
+}
+
+.spansp span{
+    text-wrap: wrap;
+}
+
+.stars{
+    display: inline-flex;
+    color: gold;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.titlediv4{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.buttonrev{
+    width: 26rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(50%);
+}
+
+.buttonrev button{
+    width: 3rem;
+    height: 3rem;
+    background-color: hsla(0, 0%, 0%, 0.723);
+    font-size: 2rem;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.photoBox{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoboxSlide{
+    width: 80%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    animation: fadeTwo 5s;
+}
+
+.photoboxSlide img{
+    width: 42rem;
+    height: 65vh;
+    object-fit: cover;
+    border: 5px solid white;
+    padding: 5px;
+}
+
+.newActive{
+    display: flex;
+}
+
+@keyframes fadeTwo {
+    0%{
+        opacity: .1;
+    }
+
+    80%{
+        opacity: 1;
+        transition: opacity linear;
+    }
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transition: opacity linear;
+    }
+}
+
+@media (max-width:1280px) {
+
+    .home{
+        padding-top: 10rem;
+    }
+
+    .background{
+        display: none;
+    }
+    .home{
+        background: linear-gradient(rgb(0, 0, 0),#0b084e);
+    }
+
+    .topHome{
+        display: flex;
+        flex-direction: column;
+        padding-top: 8rem; 
+        justify-content: center;   
+        padding-bottom: 5rem;
+    }
+
+    .topHome form{
+        margin-top: 3rem;
+    }
+    .FeaturedPhotos{
+        margin-top: 0;
+    }
+
+    .Formtitle{
+        color: rgb(154, 255, 47);
+    }
+
+    .slider-buttons button{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .OurServices{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fullReview{
+        flex-direction: column;
+    }
+    
+    .review{
+        padding-bottom: 2rem;
+    }
+}
+
+
+@media (max-width:992px) {
+
+    .home{
+        padding-top: 0rem;
+    }
+
+    .topHome{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-top: 8rem;
+        justify-content: center;  
+        height: 90vh; 
+    }
+
+    .background{
+        display: none;
+    }
+
+    .leftside .h1div{
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homedescription{
+        display: none;
+    }
+
+    .home form{
+        margin-top: 0;
+    }
+
+    .inputdiv input{
+        height: 2rem;
+    }
+
+    .dateclass input{
+        height: 2rem;
+    }
+    .FeaturedPhotos{
+        height: 90vh;
+    }
+
+    .Featured{
+        width: 70%;
+    }
+    
+    .welcome{
+        display: block;
+    }
+
+    .rightWel{
+        width: 100%;
+    }
+
+    .rightWel img {
+        width: 18rem;
+        border: 2px solid white;
+    }
+
+    .leftWel{
+        width: 100%;
+    }
+
+    .reviewSlide{
+        margin-bottom: 2rem;
+    }
+
+    
+}
+
+@media (max-width:680px){
+    .navigation{
+        display: none;
+    }
+
+    .menubutton{
+        display: block;
+    }
+
+    .menubtn{
+        display: block;
+    }
+
+    .leftside .h1div{
+        width: 100%;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: rgba(11, 11, 11, 0.742);
+    }
+
+    .logodiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav ul{
+        margin: 0.4rem;
+    }
+    .FeaturedPhotos{
+        height: 50vh;
+    }
+
+    .Featured{
+        width: 90%;
+    }
+
+    .line{
+        margin: 0 0.2rem;
+        height: 2px;
+    }
+
+    .slides img{
+        padding: 4px;
+        border: 4px solid white;
+    }
+
+    .OurServices{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .welcome{
+        padding: 0rem 5rem 5rem 5rem;
+    }
+
+    .welcome .WelcomeTitle{
+        width: 100%;
+        margin: 0rem 0 0rem 0;
+    }
+
+    .leftWel .bigPara{
+        margin-top: 0;
+    }
+
+    .photoboxSlide img{
+        width: 35rem;
+        height: 40vh;
+    }
+
+    .OurServices{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .services{
+        padding-bottom: 1rem;
+    }
+
+    .titlediv4 h3{
+        margin: 0;
+    }
+
+    .titlediv4{
+        font-size: 1.3rem;
+    }
+
+    .ServiceTitle h3{
+        font-size: 1.3rem;
+    }
+
+    .WelcomeTitle h3{
+        font-size: 1.3rem;
+    }
+
+    .titlediv{
+        font-size: 1.3rem;
+    }
+
+    .h1div{
+        font-size: 1.5rem;
+    }
+
+    .buttonrev{
+        width: 23rem;
+    }
+
+    .photoboxSlide img{
+        width: 22rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width:576px) {
+
+    .leftside .h1div{
+        font-size: 1.2rem;
+    }
+    .topHome form{
+        width: 20rem;
+        height: 32rem;
+    }
+
+    .buttonDate{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .bookbutton{
+        width: 100%;
+    }
+
+    .bookbutton button{
+        margin-left: 3.2rem;
+    }
+
+    .dateclass{
+        width: 100%;
+        gap: 12px;
+    }
+
+    .Formtitle{
+        font-size: 1.2rem;
+    }
+
+    .titlediv h3{
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .titlediv{
+        margin-top: 0;
+    }
+
+    .slider-buttons button{
+        font-size: 1.5rem;
+    }
+
+    .serviceCards{
+        width: 17rem;
+        height: 29rem;
+    }
+    
+    .cardImg img{
+        width: 80%;
+        height: 16rem;
+        padding: 8px;
+    }
+
+    .serviceDetails h4{
+        font-size: 1.2rem;
+        border-bottom: 3px solid rgb(153, 255, 0);
+    }
+
+    .serviceDetails span{
+        font-size: 0.8rem;
+    }
+
+    .ServiceTitle h3{
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    .welcome{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+
+    
+}

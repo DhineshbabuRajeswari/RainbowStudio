@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.contactus{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem 2rem 5rem;
+    color: white;
+    background: linear-gradient(#0b084e,rgb(0, 0, 0)); 
+}
+
+.titlediv5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#red{
+    color: rgb(47, 255, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.titlediv5 h3{
+    padding: 0;
+    margin: 0;
+}
+
+.titlediv5 h3 span{
+    color: gold;
+}
+
+.packingContacts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.8rem;
+}
+
+.address{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.map{
+    width: 35rem;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border: 5px solid white;
+    outline: 5px solid rgb(0, 98, 255);
+    border-radius: 3px;
+}
+
+.mb{
+    width: 12rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.mb img{
+    width: 25px;
+    height: 25px;
+    margin: 0 1rem;
+}
+
+.addressbox{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.spandiv{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#addressul ul{
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+}
+
+#addressul ul li{
+    list-style-type: none;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #110a93;
+    color: white;
+}
+
+.footerBody{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+}
+
+.num1{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.num1 span{
+    padding: 0 1.5rem;
+    text-align: justify;
+}
+
+.num2{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1rem; */
+}
+
+.num1 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.num1 ul li{
+    list-style-type: none;
+}
+
+.num1 ul li a{
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+}
+
+#explore{
+    color: gold;
+}
+
+.num2 .sub{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.num2 .sub img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.para{
+    margin-top: 1rem;
+}
+
+.wordings{
+    background-color: #0b084e;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1280px) {
+    .packingContacts{
+        flex-direction: column;
+    }
+
+    .address{
+        width: 25rem;
+        height: 20rem;
+    }
+
+    .contactus{
+        padding: 0 2rem 1rem 2rem;
+    }
+
+    .footerBody{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .num1{
+        height: 15rem;
+    }
+}
+
+
+@media (max-width:992px) {
+    
+}
+
+@media (max-width:680px){
+    .map{
+        width: 25rem;
+        height: 16rem;
+    }
+
+    .titlediv5{
+        font-size: 1.3rem;
+    }
+
+    .footerBody{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .num1 span{
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width:576px) {
+    .map{
+        width: 20rem;
+        height: 13rem;
+    }
+}

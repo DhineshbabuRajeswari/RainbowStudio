@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Labs</title>
+    <link rel="stylesheet" type="text/css" href="scripts/scripts.css">
+    <link rel="stylesheet" type="text/css" href="scripts/contacts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" href="mediafiles/images/Logos/PhotoLogo.jpg" type="image/x-icon" sizes="16x16 32x32">
+</head>
+<body>
+    <section>
+        <!-- Header Starting -->
+        <header>
+            <div class="logodiv">
+                <div class="logoimg">
+                    <img src="mediafiles\images\Logos\PhotoLogo.jpg" alt="Logo" heigth="50px" width="50px">
+                    <span><span class="firstL">R</span>AINBOW <span class="firstL">L</span>ABS</span>
+                </div>
+                <div class="menubtn">
+                    <button id="menubtn"><img src="mediafiles/images/Logos/menu-bar.png" alt="hamburger" width="30x" height="30px"></button>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <div class="activeline">
+                        <li><a href="#home">Home</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#Featured">Feature</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#welcome">About Us</a></li>
+                    </div>
+                    <div>
+                        <li><a href="">Gallery</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#review">Review</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#contactus">Contact Us</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header Ending -->
+        <!-- <div class="background">
+            <video autoplay loop muted>
+                <source src="mediafiles/images/clips/JellyFish.mp4" type="video/mp4">
+            </video>
+        </div> -->
+        <!-- Home section starting -->
+        
+        <div class="home" id="home">
+            <div class="topHome">
+                <div class="leftside">
+                    <div class="h1div">
+                        <h1><span>W</span>elcome to <span id="red">DB</span>'s <span>G</span>allery</h1>
+                    </div>
+                    <div class="homedescription">
+                        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod necessitatibus sunt atque consequuntur quam veniam magnam consectetur, odio velit alias!</span>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="Formtitle">
+                        <h3>Book Your Slot</h3>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Name as per Aadhaar">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="number" id="mobile" placeholder="enter your 10 digit mobile number">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="Occation">Type of Occation</label>
+                        <input type="text" id="Occation" placeholder="Occation of photo shoot">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="location">Locations</label>
+                        <input type="text" id="location" placeholder="places/ Locations to visit">
+                    </div>
+                    <div class="buttonDate">
+                        <div class="dateclass">
+                            <label for="date">Date</label>
+                            <input type="date" id="date">
+                        </div>
+                        <div class="bookbutton">
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="upBtn">
+                <a href="#home"><img src="mediafiles/images/Logos/up-arrow.png" alt=""></a>
+            </div>
+        </div>
+        
+        <!-- Home section Ending -->
+        
+        <!-- Featured Photos -->
+
+        <div class="FeaturedPhotos" id="Featured">
+            
+            <div class="titlediv">
+                <h3><span>F</span>eatured <span>P</span>hotos</h3>
+            </div>
+            
+            <div class="Featured">
+                
+                <div class="slides activate">
+                    <img src="mediafiles/images/Slides/img1.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img2.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img3.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img4.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img5.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img6.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img7.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img8.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img9.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img10.jpg" alt="">
+                </div>
+                <div class="slides">
+                    <img src="mediafiles/images/Slides/img11.jpg" alt="">
+                </div>
+                <div class="slider-buttons">
+                    <button id="prev-btn">
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                    </button>
+                    <button id="nxt-btn">
+                        <ion-icon name="chevron-forward-sharp"></ion-icon>
+                    </button>
+                </div>
+                <div class="linesParent">
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Featured Photos Ending -->
+
+        <!-- Welcome Note -->
+
+        <div class="welcome" id="welcome">
+            <div class="leftWel">
+                <div class="WelcomeTitle">
+                    <h3><span>A</span>bout <span>U</span>s</h3>
+                </div>
+                <div class="bigPara">
+                    <span>
+                        Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </span>
+                </div>
+                <div class="smallPara">
+                    <span>
+                        Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.
+                    </span>
+                </div>
+                <div class="aboutBtn">
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="rightWel">
+                <img src="mediafiles/images/Outsource/About.jpg" alt="About">
+            </div>
+        </div>
+
+        <!-- Services -->
+
+        <div class="services">
+            <div class="ServiceTitle">
+                <h3><span>O</span>ur &nbsp; <span>S</span>ervices</h3>
+                <span id="spanish">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</span>
+            </div>
+            <div class="OurServices mySwiper">
+                <div class="serviceCards oneCard">
+                    <div class="cardImg">
+                        <img src="mediafiles/Card_Images/Corporate.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <h4>Corporate Portrait</h4>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                </div>
+                <div class="serviceCards">
+                    <div class="cardImg">
+                        <img src="mediafiles/Card_Images/Fashion.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <h4>Beauty and Fashion</h4>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                </div>
+                <div class="serviceCards">
+                    <div class="cardImg">
+                        <img src="mediafiles/Card_Images/Wedding.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <h4>Wedding Photography</h4>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                </div>
+                <div class="serviceCards">
+                    <div class="cardImg">
+                        <img src="mediafiles/Card_Images/Portrait.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <h4>Portrait Photography</h4>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                </div>
+                <div class="serviceCards">
+                    <div class="cardImg">
+                        <img src="mediafiles/Card_Images/Events.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <h4>Event Photography</h4>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                </div>
+                <div class="serviceCards">
+                    <div class="cardImg">
+                        <img src="mediafiles/Card_Images/Engagement.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <h4>Engagements</h4>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Review Section Starting -->
+
+        <div class="review" id="review">
+            <div class="titlediv4">
+                <h3><span>R</span>eviews</h3>
+            </div>
+            <div class="fullReview">
+                <div class="reviewbox">
+                    <div class="reviewSlide active">
+                        <div class="box1">
+                            <div class="boximage">
+                                <img src="mediafiles/Reviews/img1.jpg" alt="">
+                                <h3>Julia Butters</h3>
+                            </div>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="spansp">
+                                <span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewSlide">
+                        <div class="box1">
+                            <div class="boximage">
+                                <img src="mediafiles/Reviews/img4.jpg" alt="">
+                                <h3>Hariharan</h3>
+                            </div>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="spansp">
+                                <span>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impeomnis dolor repellendus.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewSlide">
+                        <div class="box1">
+                            <div class="boximage">
+                                <img src="mediafiles/Reviews/img3.jpg" alt="">
+                                <h3>Emma Myers</h3>
+                            </div>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <div class="spansp">
+                                <span>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewSlide">
+                        <div class="box1">
+                            <div class="boximage">
+                                <img src="mediafiles/Reviews/img2.jpg" alt="">
+                                <h3>Naveen</h3>
+                            </div>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="spansp">
+                                <span>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttonrev">
+                        <button id="revLeft">
+                            <ion-icon name="chevron-back-outline"></ion-icon>
+                        </button>
+                        <button id="revRight">
+                            <ion-icon name="chevron-forward-sharp"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="photoBox">
+                    <div class="photoboxSlide newActive"><img src="mediafiles/SlideRev/img (1).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (2).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (3).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (4).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (5).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (6).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (7).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (8).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (9).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (10).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (11).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (12).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (13).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (14).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (15).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (16).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (17).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (18).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (19).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (20).jpg" alt=""></div>
+                    <div class="photoboxSlide"><img src="mediafiles/SlideRev/img (21).jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+                        
+
+        <!-- Review Section Ending -->
+
+        <!-- Contact Us Starting -->
+
+        <div class="contactus" id="contactus">
+            <div class="titlediv5">
+                <h3><span>C</span>ontact <span>U</span>s</h3>
+            </div>
+            <div class="packingContacts">
+                <div class="address">
+                    <div class="addressbox" id="mobilebox">
+                        <div class="mb">
+                            <img src="mediafiles\images\icons\phone.png" alt="">
+                            <h3>Mobile</h3>
+                        </div>
+                        <div class="spandiv" id="mobilenum">
+                            <span>9597989465</span>
+                        </div>
+                    </div>
+                    <div class="addressbox" id="mailbox">
+                        <div class="mb">
+                            <img src="mediafiles\images\icons\mail.png" alt="">
+                            <h3>Email</h3>
+                        </div>
+                        <div class="spandiv" id="mailadd">
+                            <span>dinbabu20@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="addressbox" id="addbox">
+                        <div class="mb">
+                            <img src="mediafiles\images\icons\house.png" alt="">
+                            <h3>Address</h3>
+                        </div>
+                        <div class="spandiv" id="addressul">
+                            <ul>
+                                <li>Electronic City Phase I,</li>
+                                <li>Bangalore,</li>
+                                <li>Karnataka,</li>
+                                <li>560100</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=electronic city&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us Ending -->
+
+        <!-- Footer section Starting -->
+        
+        <footer>
+            <div class="footerBody">
+                <div class="num1 para">
+                    <h4 id="explore">EXPLORE WITH US</h4>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </div>
+                <div class="num1">
+                    <h4>RECENT NEWS</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Selected Work</a></li>
+                        <li><a href="#">Get in Touch</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                    </ul>
+                </div>
+                <div class="num1">
+                    <h4>CATEGORIES</h4>
+                    <ul>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Real Life</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Tech's</a></li>
+                    </ul>
+                </div>
+                <div class="num2">
+                    <h4>SUBSCRIBE</h4>
+                    <div class="sub">
+                        <img src="mediafiles/images/Logos/facebook.png" alt="Fb">
+                        <img src="mediafiles/images/Logos/instagram.png" alt="Insta">
+                        <img src="mediafiles/images/Logos/whatsapp.png" alt="Whatsapp">
+                        <img src="mediafiles/images/Logos/youtube.png" alt="YT">
+                    </div>
+                </div>
+            </div>
+            <div class="wordings">
+                <p>Created by Dhineshbabu</p>
+            </div>
+        </footer>
+    </section>
+    
+    <script src="scripts/photos.js"></script>
+    </body>
+</html>
